@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6672FC9D1DAB78A600BC4CF3"
+               BuildableName = "ViewLayoutPureDemo.app"
+               BlueprintName = "ViewLayoutPureDemo"
+               ReferencedContainer = "container:ViewLayoutPureDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6672FCB61DAB78A600BC4CF3"
+               BuildableName = "ViewLayoutPureDemoTests.xctest"
+               BlueprintName = "ViewLayoutPureDemoTests"
+               ReferencedContainer = "container:ViewLayoutPureDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6672FCC11DAB78A600BC4CF3"
+               BuildableName = "ViewLayoutPureDemoUITests.xctest"
+               BlueprintName = "ViewLayoutPureDemoUITests"
+               ReferencedContainer = "container:ViewLayoutPureDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6672FC9D1DAB78A600BC4CF3"
+            BuildableName = "ViewLayoutPureDemo.app"
+            BlueprintName = "ViewLayoutPureDemo"
+            ReferencedContainer = "container:ViewLayoutPureDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6672FC9D1DAB78A600BC4CF3"
+            BuildableName = "ViewLayoutPureDemo.app"
+            BlueprintName = "ViewLayoutPureDemo"
+            ReferencedContainer = "container:ViewLayoutPureDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6672FC9D1DAB78A600BC4CF3"
+            BuildableName = "ViewLayoutPureDemo.app"
+            BlueprintName = "ViewLayoutPureDemo"
+            ReferencedContainer = "container:ViewLayoutPureDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
